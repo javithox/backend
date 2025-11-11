@@ -21,6 +21,7 @@ repositories {
 }
 
 dependencies {
+	implementation ("com.oracle.database.jdbc:ojdbc8:19.14.0.0")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-data-rest")
 	implementation("org.springframework.boot:spring-boot-starter-web")
